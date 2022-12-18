@@ -15,6 +15,7 @@ public class MoedasNotas {
         double moedas[] = {1.0, 0.50, 0.25, 0.10, 0.05, 0.01};
         int qtdNota, qtdMoeda;
 
+        System.out.println("INFORME O VALOR MONETÁRIO:");
         double valor = sc.nextDouble();
         valor = (valor * 100) + 0.05;
 
